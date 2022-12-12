@@ -281,6 +281,8 @@ void unitsOfPrerequisites(const CourseList& courseList)
         	    sum += tempCourse.getCourseUnits();
 			 }
 			 cout << "\nThe total credits of the prerequisites are " << sum << " units.\n";
+			 if(sum == 0)
+			 	cout << "This means you can take this course without any qualifying classes. Good luck on your CS journey if you decide to take this class\n";
 		}
 
 		bool chooseNext = false;
