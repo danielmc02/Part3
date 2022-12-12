@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/danielmccray/Part3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/danielmccray/Part3
+CMAKE_BINARY_DIR = /Users/danielmccray/part3
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danielmccray/Part3/CMakeFiles /Users/danielmccray/Part3//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danielmccray/part3/CMakeFiles /Users/danielmccray/part3//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danielmccray/Part3/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danielmccray/part3/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,222 @@ exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/build
 .PHONY : exe/fast
 
+src/Course.o: src/Course.cpp.o
+.PHONY : src/Course.o
+
+# target to build an object file
+src/Course.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/Course.cpp.o
+.PHONY : src/Course.cpp.o
+
+src/Course.i: src/Course.cpp.i
+.PHONY : src/Course.i
+
+# target to preprocess a source file
+src/Course.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/Course.cpp.i
+.PHONY : src/Course.cpp.i
+
+src/Course.s: src/Course.cpp.s
+.PHONY : src/Course.s
+
+# target to generate assembly for a file
+src/Course.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/Course.cpp.s
+.PHONY : src/Course.cpp.s
+
+src/CourseList.o: src/CourseList.cpp.o
+.PHONY : src/CourseList.o
+
+# target to build an object file
+src/CourseList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/CourseList.cpp.o
+.PHONY : src/CourseList.cpp.o
+
+src/CourseList.i: src/CourseList.cpp.i
+.PHONY : src/CourseList.i
+
+# target to preprocess a source file
+src/CourseList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/CourseList.cpp.i
+.PHONY : src/CourseList.cpp.i
+
+src/CourseList.s: src/CourseList.cpp.s
+.PHONY : src/CourseList.s
+
+# target to generate assembly for a file
+src/CourseList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/CourseList.cpp.s
+.PHONY : src/CourseList.cpp.s
+
+src/CourseListBigThree.o: src/CourseListBigThree.cpp.o
+.PHONY : src/CourseListBigThree.o
+
+# target to build an object file
+src/CourseListBigThree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/CourseListBigThree.cpp.o
+.PHONY : src/CourseListBigThree.cpp.o
+
+src/CourseListBigThree.i: src/CourseListBigThree.cpp.i
+.PHONY : src/CourseListBigThree.i
+
+# target to preprocess a source file
+src/CourseListBigThree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/CourseListBigThree.cpp.i
+.PHONY : src/CourseListBigThree.cpp.i
+
+src/CourseListBigThree.s: src/CourseListBigThree.cpp.s
+.PHONY : src/CourseListBigThree.s
+
+# target to generate assembly for a file
+src/CourseListBigThree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/CourseListBigThree.cpp.s
+.PHONY : src/CourseListBigThree.cpp.s
+
+src/CourseListInsertInOrder.o: src/CourseListInsertInOrder.cpp.o
+.PHONY : src/CourseListInsertInOrder.o
+
+# target to build an object file
+src/CourseListInsertInOrder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/CourseListInsertInOrder.cpp.o
+.PHONY : src/CourseListInsertInOrder.cpp.o
+
+src/CourseListInsertInOrder.i: src/CourseListInsertInOrder.cpp.i
+.PHONY : src/CourseListInsertInOrder.i
+
+# target to preprocess a source file
+src/CourseListInsertInOrder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/CourseListInsertInOrder.cpp.i
+.PHONY : src/CourseListInsertInOrder.cpp.i
+
+src/CourseListInsertInOrder.s: src/CourseListInsertInOrder.cpp.s
+.PHONY : src/CourseListInsertInOrder.s
+
+# target to generate assembly for a file
+src/CourseListInsertInOrder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/CourseListInsertInOrder.cpp.s
+.PHONY : src/CourseListInsertInOrder.cpp.s
+
+src/Interface.o: src/Interface.cpp.o
+.PHONY : src/Interface.o
+
+# target to build an object file
+src/Interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/Interface.cpp.o
+.PHONY : src/Interface.cpp.o
+
+src/Interface.i: src/Interface.cpp.i
+.PHONY : src/Interface.i
+
+# target to preprocess a source file
+src/Interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/Interface.cpp.i
+.PHONY : src/Interface.cpp.i
+
+src/Interface.s: src/Interface.cpp.s
+.PHONY : src/Interface.s
+
+# target to generate assembly for a file
+src/Interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/Interface.cpp.s
+.PHONY : src/Interface.cpp.s
+
+src/TestCopyAssignmentOp.o: src/TestCopyAssignmentOp.cpp.o
+.PHONY : src/TestCopyAssignmentOp.o
+
+# target to build an object file
+src/TestCopyAssignmentOp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/TestCopyAssignmentOp.cpp.o
+.PHONY : src/TestCopyAssignmentOp.cpp.o
+
+src/TestCopyAssignmentOp.i: src/TestCopyAssignmentOp.cpp.i
+.PHONY : src/TestCopyAssignmentOp.i
+
+# target to preprocess a source file
+src/TestCopyAssignmentOp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/TestCopyAssignmentOp.cpp.i
+.PHONY : src/TestCopyAssignmentOp.cpp.i
+
+src/TestCopyAssignmentOp.s: src/TestCopyAssignmentOp.cpp.s
+.PHONY : src/TestCopyAssignmentOp.s
+
+# target to generate assembly for a file
+src/TestCopyAssignmentOp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/TestCopyAssignmentOp.cpp.s
+.PHONY : src/TestCopyAssignmentOp.cpp.s
+
+src/TestCopyConstructor.o: src/TestCopyConstructor.cpp.o
+.PHONY : src/TestCopyConstructor.o
+
+# target to build an object file
+src/TestCopyConstructor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/TestCopyConstructor.cpp.o
+.PHONY : src/TestCopyConstructor.cpp.o
+
+src/TestCopyConstructor.i: src/TestCopyConstructor.cpp.i
+.PHONY : src/TestCopyConstructor.i
+
+# target to preprocess a source file
+src/TestCopyConstructor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/TestCopyConstructor.cpp.i
+.PHONY : src/TestCopyConstructor.cpp.i
+
+src/TestCopyConstructor.s: src/TestCopyConstructor.cpp.s
+.PHONY : src/TestCopyConstructor.s
+
+# target to generate assembly for a file
+src/TestCopyConstructor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/TestCopyConstructor.cpp.s
+.PHONY : src/TestCopyConstructor.cpp.s
+
+src/TestFunctions.o: src/TestFunctions.cpp.o
+.PHONY : src/TestFunctions.o
+
+# target to build an object file
+src/TestFunctions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/TestFunctions.cpp.o
+.PHONY : src/TestFunctions.cpp.o
+
+src/TestFunctions.i: src/TestFunctions.cpp.i
+.PHONY : src/TestFunctions.i
+
+# target to preprocess a source file
+src/TestFunctions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/TestFunctions.cpp.i
+.PHONY : src/TestFunctions.cpp.i
+
+src/TestFunctions.s: src/TestFunctions.cpp.s
+.PHONY : src/TestFunctions.s
+
+# target to generate assembly for a file
+src/TestFunctions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/TestFunctions.cpp.s
+.PHONY : src/TestFunctions.cpp.s
+
+src/TestingCases.o: src/TestingCases.cpp.o
+.PHONY : src/TestingCases.o
+
+# target to build an object file
+src/TestingCases.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/TestingCases.cpp.o
+.PHONY : src/TestingCases.cpp.o
+
+src/TestingCases.i: src/TestingCases.cpp.i
+.PHONY : src/TestingCases.i
+
+# target to preprocess a source file
+src/TestingCases.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/TestingCases.cpp.i
+.PHONY : src/TestingCases.cpp.i
+
+src/TestingCases.s: src/TestingCases.cpp.s
+.PHONY : src/TestingCases.s
+
+# target to generate assembly for a file
+src/TestingCases.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe.dir/build.make CMakeFiles/exe.dir/src/TestingCases.cpp.s
+.PHONY : src/TestingCases.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +378,33 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... exe"
+	@echo "... src/Course.o"
+	@echo "... src/Course.i"
+	@echo "... src/Course.s"
+	@echo "... src/CourseList.o"
+	@echo "... src/CourseList.i"
+	@echo "... src/CourseList.s"
+	@echo "... src/CourseListBigThree.o"
+	@echo "... src/CourseListBigThree.i"
+	@echo "... src/CourseListBigThree.s"
+	@echo "... src/CourseListInsertInOrder.o"
+	@echo "... src/CourseListInsertInOrder.i"
+	@echo "... src/CourseListInsertInOrder.s"
+	@echo "... src/Interface.o"
+	@echo "... src/Interface.i"
+	@echo "... src/Interface.s"
+	@echo "... src/TestCopyAssignmentOp.o"
+	@echo "... src/TestCopyAssignmentOp.i"
+	@echo "... src/TestCopyAssignmentOp.s"
+	@echo "... src/TestCopyConstructor.o"
+	@echo "... src/TestCopyConstructor.i"
+	@echo "... src/TestCopyConstructor.s"
+	@echo "... src/TestFunctions.o"
+	@echo "... src/TestFunctions.i"
+	@echo "... src/TestFunctions.s"
+	@echo "... src/TestingCases.o"
+	@echo "... src/TestingCases.i"
+	@echo "... src/TestingCases.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1,6 +1,6 @@
 #include "CourseList.h"
 #include "TestingCases.h"
-#include "./Interface.h"
+#include "Interface.h"
 
 #include <iostream>
 #include <string>

@@ -1,4 +1,5 @@
-CMakeFiles/exe.dir/src/main.cpp.o: /Users/danielmccray/part3/src/main.cpp \
+CMakeFiles/exe.dir/src/TestCopyConstructor.cpp.o: \
+  /Users/danielmccray/part3/src/TestCopyConstructor.cpp \
   /Users/danielmccray/part3/src/CourseList.h \
   /Users/danielmccray/part3/src/Course.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/string \
@@ -365,8 +366,6 @@ CMakeFiles/exe.dir/src/main.cpp.o: /Users/danielmccray/part3/src/main.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__node_handle \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/optional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__tree \
-  /Users/danielmccray/part3/src/TestingCases.h \
-  /Users/danielmccray/part3/src/Interface.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__locale \
